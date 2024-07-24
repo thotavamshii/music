@@ -1,0 +1,46 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Music Player</title>
+    <link rel="stylesheet" href="music.css"> </head>
+<body>
+    <div class="player">
+        <audio id="audio-player" src="your_song.mp3" preload="metadata"></audio> <div class="controls">
+            <button id="play-pause">Play</button>
+            <button id="prev">Prev</button>
+            <button id="next">Next</button>
+            <div class="time">
+                <span id="current-time">00:00</span> / <span id="duration">00:00</span>
+            </div>
+            <div class="progress-bar">
+                <input type="range" id="seek-bar" min="0" max="100" value="0">
+            </div>
+        </div>
+        <div class="song-info">
+            <span id="song-title">Song Title</span> - <span id="artist">Artist</span>
+        </div>
+    </div>
+    <script src="music.js"></script> </body>
+</html> -->
+
+
+<!-- Music player container -->
+<div id="music-player">
+    <!-- Audio element -->
+    <audio id="audio" src=""></audio>
+    <link rel="stylesheet" href="music.css"> </head>
+    
+    <!-- Player buttons -->
+    <button id="play-btn">Play</button>
+    <button id="pause-btn">Pause</button>
+    <button id="stop-btn">Stop</button>
+    
+    <!-- Music information -->
+    <div id="song-info">
+      <h2 id="song-title"></h2>
+      <p id="song-artist"></p>
+    </div>
+  </div>
+<script src="music.js"></script>  
